@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: red;
+
+
+}
+img#hero{
+    width: 200px;
+    border-radius: 100%;   
+    margin: 10px 0px 10px 0px;     
+}
+h1#hero{
+    font-style: italic;
+      color: black;
+      font-family: "silkscreen", cursive;
+} 
+nav{
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+li a{
+    font-family: Silkscreen, cursive;
+    font-size: 20px;
+    text-decoration: nome;
+    color: white;
+    width: 100%;
+
+}
+li a:hover{
+    color: red;
+}
