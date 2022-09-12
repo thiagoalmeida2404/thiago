@@ -1,38 +1,51 @@
-*{
+:root{
+    --pricipal: black;
+}
+* {
     margin: 0px;
     padding: 0px;
     border: 0px;
 }
 
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: red;
-
-
-}
-img#hero{
-    width: 200px;
-    border-radius: 100%;   
-    margin: 10px 0px 10px 0px;     
-}
-h1#hero{
-    font-style: italic;
-      color: black;
-      font-family: "silkscreen", cursive;
-} 
-nav{
     background-color: black;
+
+
 }
-ul{
+
+img#hero {
+    width: 200px;
+    border-radius: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+h1#hero {
+    font-style: italic;
+    color: white;
+    font-family: "silkscreen", cursive;
+}
+
+h4 {
+    color: white;
+}
+
+nav {
+    background-color: blue;
+}
+
+ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    width: 100%;
 
 }
-li a{
+
+li a {
     font-family: Silkscreen, cursive;
     font-size: 20px;
     text-decoration: nome;
@@ -40,6 +53,20 @@ li a{
     width: 100%;
 
 }
-li a:hover{
-    color: red;
+
+li a:hover {
+    color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: blue;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
